@@ -1,5 +1,4 @@
-# AudioEmotionRcognition
-this is a repository about deep learning in emotion recognition
+
 
 
 
@@ -64,4 +63,4 @@ base_model = ResNet18(input_shape=(shape1,shape2,3), weights='imagenet', include
 
 # Version log 
 
-1. 添加基础的文件，搭建好了框架。
+1. 添加基础的文件，搭建好了框架。 2021年3月11日06:36:48
