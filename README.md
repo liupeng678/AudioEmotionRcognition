@@ -51,7 +51,7 @@ base_model = ResNet18(input_shape=(shape1,shape2,3), weights='imagenet', include
 
 
 
-
+2. https://www.kaggle.com/pengliu1997/speech-emotion-recognition/  add my data
 
 
 
