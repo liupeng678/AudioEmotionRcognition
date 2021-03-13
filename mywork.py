@@ -296,7 +296,7 @@ b,c,h,w = X_val.shape
 X_val = np.reshape(X_val, newshape=(b,-1))
 X_val = scaler.transform(X_val)
 X_val = np.reshape(X_val, newshape=(b,c,h,w))
-EPOCHS=150
+EPOCHS=300
 DATASET_SIZE = X_train.shape[0]
 BATCH_SIZE = 32
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
